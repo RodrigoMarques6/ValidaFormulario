@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ValidaFormulário</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Formulário de Cadastro</h1>
+        <ul>
+            <li>Nenhum campo pode estar vazio</li>
+            <li>Usuário só poderá conter letra e/ou números</li>
+            <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+            <li>Senha precisa ter entre 06 e 12 caracteres</li>
+        </ul>
+
+        <form action="/" method="POST" class="formulario">
+        <label>Nome</label><br>
+        <input type="text" class="nome"><br>    
+
+        <label>Sobrenome</label><br>
+        <input type="text" class="sobrenome"><br>
+
+        <label>CPF</label><br>
+        <input type="text" class="CPF"><br>
+
+        <label>Usuário</label><br>
+        <input type="text" class="usuario"><br>
+
+        <label>Senha</label><br>
+        <input type="text" class="senha"><br>
+
+        <label>Repetir a senha</label><br>
+        <input type="text" class="repetirSenha"><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+    </section>
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
